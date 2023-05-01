@@ -5,41 +5,6 @@
 
 
 int main() {
-	/*Container<Task*>* taskContainer = new Container<Task*>;
-	Operation_task* taskAdd1 = new Operation_task(2, 3, "Add");
-	Operation_task* taskAdd2 = new Operation_task(2, 3, "Add");
-	Operation_task* taskAdd3 = new Operation_task(2, 3, "Add");
-	Operation_task* taskAdd4 = new Operation_task(2, 3, "Add");
-	Operation_task* taskAdd5 = new Operation_task(2, 3, "Add");
-
-	taskContainer->push_back(taskAdd1);
-	taskContainer->push_back(taskAdd2);
-	taskContainer->push_back(taskAdd3);
-	taskContainer->push_back(taskAdd4);
-	taskContainer->push_back(taskAdd5);
-
-	for (auto iter = taskContainer->begin(); iter!= taskContainer->end(); ++iter) {
-		std::cout << iter.value()->toString() << std::endl;
-	}
-
-	int counter = Object::get_counter();
-	std::cout << std::endl << "the amount of objects is " + std::to_string(counter) << std::endl;
-
-	for (auto iter = taskContainer->begin(); iter != taskContainer->end(); ++iter) {
-		delete iter.value();
-	}
-
-	
-
-	delete taskAdd1;
-	delete taskAdd2;
-	delete taskAdd3;
-	delete taskAdd4;
-	delete taskAdd5;
-
-	counter = Object::get_counter();
-	std::cout << std::endl << "the amount of objects is " + std::to_string(counter) << std::endl;*/
-
 	Container<Task*> task_container;
 
 	Operation_task* task_add_1 = new Operation_task(2, 3, "Add");
